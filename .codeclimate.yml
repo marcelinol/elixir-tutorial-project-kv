@@ -1,0 +1,11 @@
+engines:
+  dogma:
+    enabled: true
+    config:
+      override:
+          line_length:
+            max_length: 666
+plugins:
+  credo:
+    enabled: true
+    channel: "beta"
